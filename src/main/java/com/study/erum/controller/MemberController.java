@@ -107,6 +107,9 @@ public class MemberController {
 		 return checkResult;
 	 }
 	 
+	 @GetMapping("/logout")//보여주는 부분
+		public String logout() {
+			return "logout";
+		}
 	 
-	  
 }
